@@ -1,0 +1,46 @@
+{
+  "vpc-provider:account=843556918706:filter.tag:Name=VPC for BYUB region us-east-1:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-07cf3592deefcc2d4",
+    "vpcCidrBlock": "172.18.0.0/16",
+    "ownerAccountId": "843556918706",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-071f25f158261d46c",
+            "cidr": "172.18.32.0/20",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-08c827f33b82b1ba4"
+          },
+          {
+            "subnetId": "subnet-01d62b68ef81b47ce",
+            "cidr": "172.18.96.0/20",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-08c827f33b82b1ba4"
+          }
+        ]
+      },
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0b4875db551fe6354",
+            "cidr": "172.18.0.0/19",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-0ad446b0208307689"
+          },
+          {
+            "subnetId": "subnet-0f2ef2968382bf63b",
+            "cidr": "172.18.64.0/19",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-090ad87fc78e00263"
+          }
+        ]
+      }
+    ]
+  }
+}

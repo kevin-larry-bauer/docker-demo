@@ -1,8 +1,8 @@
-# Welcome to your CDK TypeScript project
+# Docker Demo
 
-This is a blank project for CDK development with TypeScript.
+This is a basic demo of a dockerized application that can be deployed to AWS ECR and Fargate. 
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+One change is needed before deploying - the `docker-demo-stack.ts` file needs to be updated with the correct VPC name (or updated to create a new VPC).
 
 ## Useful commands
 
